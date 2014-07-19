@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7.0" client="site" method="install">
+	<name>Home Ric</name>
+	<author>Weiberlan</author>
+	<creationDate>September 2013</creationDate>
+	<copyright>Ambiente Livre Tecnologia</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>weiberlan@ambientelivre.com</authorEmail>
+	<authorUrl>www.ambientelivre.com.br</authorUrl>
+	<version>1.0</version>
+	<description>Módulo para cutomização da página home de uma intranet</description>
+	<files>
+		<filename module="mod_home_intranetric">mod_home_intranetric.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_home_intranetric.xml</filename>
+	</files>
+</extension>

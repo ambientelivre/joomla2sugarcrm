@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7.0" client="site" method="install">
+	<name>Emails - Sugar Connection</name>
+	<author>AnderZilla</author>
+	<creationDate>November 2012</creationDate>
+	<copyright>Copyright (C)2012 AnderZilla</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>eurecatech@gmail.com</authorEmail>
+	<authorUrl>www.eurecatech.com.br</authorUrl>
+	<version>1.0</version>
+	<description>Conection with Sugar CRM CE 6.3</description>
+	<files>
+		<filename module="mod_email_crm">mod_email_crm.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_email_crm.xml</filename>
+	</files>
+</extension>

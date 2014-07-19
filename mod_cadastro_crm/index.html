@@ -1,0 +1,80 @@
+<html>
+<body>
+	<table width="400px">
+		<tr>
+			<td>Razão social</td>
+			<td>'.$lead['razao_social_c'].'</td>
+			<td></td>
+			<td>Atividade</td>
+			<td>'.$lead['descricao_atividade_c'].'</td>
+		</tr>
+		<tr>
+			<td>CNPJ/CPF</td>
+			<td>'.$lead['cnpj_cpf_c'].'</td>
+			<td></td>
+			<td>IE</td>
+			<td>'.$lead['inscricao_estadual_c'].'</td>
+		</tr>
+		<tr>
+			<td>Website</td>
+			<td>'.$lead['website'].'</td>
+			<td></td>
+			<td>Telefone</td>
+			<td>'.$lead['phone_office'].'</td>
+		</tr>
+		<tr>
+			<td colspan="5">Endereços</td>
+		</tr>
+		<tr>
+			<th colspan="2">Endereço de cobrança</th>
+			<th></th>
+			<th colspan="2">Endereço de entrega</th>
+		</tr>
+		<tr>
+			<td>Rua</td>
+			<td>'.$lead['billing_address_street'].'</td>
+			<td></td>
+			<td>Rua</td>
+			<td>'.$lead['shipping_address_street'].'</td>
+		</tr>
+		<tr>
+			<td>Cidade</td>
+			<td>'.$lead['billing_address_city'].'</td>
+			<td></td>
+			<td>Cidade</td>
+			<td>'.$lead['shipping_address_city'].'</td>
+		</tr>
+		<tr>
+			<td>Estado</td>
+			<td>'.$lead['billing_address_state'].'</td>
+			<td></td>
+			<td>Estado</td>
+			<td>'.$lead['shipping_address_state'].'</td>
+		</tr>
+		<tr>
+			<td>CEP</td>
+			<td>'.$lead['billing_address_postalcode'].'</td>
+			<td></td>
+			<td>CEP</td>
+			<td>'.$lead['shipping_address_postalcode'].'</td>
+		</tr>
+		<tr>
+			<td>País</td>
+			<td>'.$lead['billing_address_country'].'</td>
+			<td></td>
+			<td>País</td>
+			<td>'.$lead['shipping_address_country'].'</td>
+		</tr>
+		<tr>
+			<th colspan="5"><strong>Contatos</strong></th>
+		</tr>
+		<tr>
+			<td>Nome:</td>
+			<td>'.$lead['first_name'].' '.$lead['last_name'].'</td>
+			<td></td>
+			<td>Titulo</td>
+			<td>'.$lead['title'].'</td>
+		</tr>
+	</table>
+</body>
+</html>
